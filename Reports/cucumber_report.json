@@ -1,0 +1,1280 @@
+[
+  {
+    "description": "  As a user\n  I want to test login page",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page;verify-username-textbox",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify username textbox",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5816251099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20756400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see text \"Username\" on \"userNameLabel\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53558898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see field \"userName\" enable",
+            "match": {
+              "location": "step-definitions\\all.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2399100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4252500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;verify-password-textbox",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify Password textbox",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3381074599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3488599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I see text \"Password\" on \"passwordLabel\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41846299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I see field \"password\" enable",
+            "match": {
+              "location": "step-definitions\\all.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 698699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4362800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;verify-submit-button",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify Submit button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8401166300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I see text \"Submit\" on \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28334000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I see field \"submit\" clickable",
+            "match": {
+              "location": "step-definitions\\all.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3125699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4342299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;login-with-invalid-username-and-blank-password",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login with invalid username and blank password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5224195500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I type \"Test\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1058018799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1059807699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5895800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3392400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;login-with-invalid-password-and-blank-user-name",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Login with invalid password and blank user name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3027010299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I type \"Test\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1047015400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1046690300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3551000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3161999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;login-with-invalid-password-and-invalid-user-name",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Login with invalid password and invalid user name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5250875399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I type \"Test\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1049518400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I type \"Test\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1030291500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1075039799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13324999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11640200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;login-with-valid-user-name-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Login with valid user name and invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2879029800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 626898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I type \"student\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1042153300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I type \"text\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1033241898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1044195100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I see text \"Your password is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5134400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4501700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 44
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;login-with-valid-password-and-valid-user-name",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Login with valid password and valid user name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3487530100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I type \"student\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1087206499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "I type \"Password123\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1016607199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4513807299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "I am on page \"Home Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2215999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I see text \"Logged In Successfully\" on \"homePageMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31492000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6211000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;apply-sql-injection",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Apply SQL injection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2992512100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I type \"\\\" or \\\"\\\"=\\\"\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097037899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "I type \"\\\" or \\\"\\\"=\\\"\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1034327100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1054829699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4069000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3284299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 61
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;:-login-page-invalid-cases",
+        "keyword": "Scenario Outline",
+        "line": 80,
+        "name": ": Login page invalid cases",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2993129300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I type \"test\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067432699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I type \"\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1059154299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1076379498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5540499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5047500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;:-login-page-invalid-cases",
+        "keyword": "Scenario Outline",
+        "line": 81,
+        "name": ": Login page invalid cases",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3159651899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I type \"\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1058636700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I type \"test\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027756099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1056970200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4513600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4759799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;:-login-page-invalid-cases",
+        "keyword": "Scenario Outline",
+        "line": 82,
+        "name": ": Login page invalid cases",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2926790900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I type \"test\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1054892299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I type \"test\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020978699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1042529300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5048798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2414300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;:-login-page-invalid-cases",
+        "keyword": "Scenario Outline",
+        "line": 83,
+        "name": ": Login page invalid cases",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2954504399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I type \"student\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1056461899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I type \"test\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027134199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1060881798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I see text \"Your password is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4260599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4566999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page;:-login-page-invalid-cases",
+        "keyword": "Scenario Outline",
+        "line": 84,
+        "name": ": Login page invalid cases",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3043435200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I am on page \"Login Page\"",
+            "match": {
+              "location": "step-definitions\\common.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I type \"\\\" or \\\"\\\"=\\\"\" into \"userName\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1046707399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I type \"\\\" or \\\"\\\"=\\\"\" into \"password\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1024862799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "I click \"submit\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1054600099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I see text \"Your username is invalid!\" on \"notificationMessage\"",
+            "match": {
+              "location": "step-definitions\\all.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4994099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3852100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web",
+            "line": 70
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Page",
+    "tags": [],
+    "uri": "tests\\features\\loginPage.feature"
+  }
+]
